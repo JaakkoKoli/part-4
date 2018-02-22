@@ -1,0 +1,29 @@
+{
+  "name": "part4",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.0",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.1",
+    "mongoose": "^5.0.6",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "start": "cross-env NODE_ENV=production react-scripts start",
+    "build": "cross-env NODE_ENV=development react-scripts build",
+    "watch": "nodemon src/index.js",
+    "test": "cross-env NODE_ENV=test  jest --verbose",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.3",
+    "jest": "^22.3.0",
+    "nodemon": "^1.15.0",
+    "supertest": "^3.0.0"
+  }
+}
